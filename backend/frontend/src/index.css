@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+.scrol {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+.scrol::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
+@media screen and (max-width: 768px) {
+  .minHeight {
+    height: 75vh;
+  }
+  .MinHeight{
+    height: 67vh;
+  }
+}
